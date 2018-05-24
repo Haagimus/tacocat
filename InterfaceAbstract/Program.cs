@@ -12,34 +12,34 @@ namespace InterfaceAbstract
         static void Main()
         {
             // Example vehicle creation and display
-            Vehicle ford = new Car
-            {
-                Year = 2016,
-                Runs = "Yes",
-                Make = "Ford",
-                Model = "Mustang"
-            };
-            displayVehicle(ford);
+            //Vehicle ford = new Car
+            //{
+            //    Year = 2016,
+            //    Runs = "Yes",
+            //    Make = "Ford",
+            //    Model = "Mustang"
+            //};
+            //displayVehicle(ford);
 
             // Example vehicle creation and display
-            Vehicle vw = new Car
-            {
-                Year = 2010,
-                Runs = "No",
-                Make = "Volkswagen",
-                Model = "GTI"
-            };
-            displayVehicle(vw);
+            //Vehicle vw = new Car
+            //{
+            //    Year = 2010,
+            //    Runs = "No",
+            //    Make = "Volkswagen",
+            //    Model = "GTI"
+            //};
+            //displayVehicle(vw);
 
             // Example vehicle creation and display
-            Vehicle tundra = new Truck
-            {
-                Year = 2014,
-                Runs = "Yes",
-                Make = "Toyota",
-                Model = "Tundra"
-            };
-            displayVehicle(tundra);
+            //Vehicle tundra = new Truck
+            //{
+            //    Year = 2014,
+            //    Runs = "Yes",
+            //    Make = "Toyota",
+            //    Model = "Tundra"
+            //};
+            //displayVehicle(tundra);
 
             Console.Clear();
             Console.WriteLine("What type of vehicle do you want to make and press Enter:");
